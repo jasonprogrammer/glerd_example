@@ -1,3 +1,3 @@
-# glerd_example
+# How to use Glerd
 
-An example project to help demonstrate how to use Glerd, a library that can generate metadata for Records in Gleam.
+this is an example project to help demonstrate how to use Glerd, a library that can generate metadata for Records in Gleam.
