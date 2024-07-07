@@ -71,4 +71,4 @@ our project, and helps us avoid rebuilding Glerd each time we want to
 invoke it.
 
 3. Use a shell script or task runner
-(e.g. [task](https://github.com/go-task/task) to run Glerd and `gleam run` sequentially.
+(e.g. [task](https://github.com/go-task/task)) to run Glerd and `gleam run` sequentially.
