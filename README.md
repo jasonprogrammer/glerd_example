@@ -56,19 +56,19 @@ pub type User {
 
 and generating the `glerd_gen.gleam` metadata file.
 
-## How can we use this perpetually in a project?
+## How can we run Glerd each time we build the Gleam project?
 
-There are multiple ways of doing this. Here's one possibiity. We could:
+There are multiple ways of doing this. Here's one possibility. We could:
 
-1. Add the `glerd_gen.gleam` as code to a project (e.g. add to Git source
-control with the other source files).
-
-2. Clone the [Glerd](https://github.com/darky/glerd) repository and build a
+1. Clone the [Glerd](https://github.com/darky/glerd) repository and build a
 single binary of Glerd using [Gleescript](https://hexdocs.pm/gleescript/).
-Add this binary to the project repo so that we can run the Gleescript binary
+
+2. Add this `glerd` binary to the project repo so that we can run the Gleescript binary
 each time we build the Gleam project (e.g. before running `gleam run`).
 
 Creating a single binary helps us avoid adding all of Glerd's dependencies to
 our project, and helps us avoid rebuilding Glerd code each time we want to
 invoke it.
 
+3. Use a shell script or task runner
+(e.g. [task](https://github.com/go-task/task) to run Glerd and `gleam run` sequentially.
