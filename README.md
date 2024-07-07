@@ -8,23 +8,29 @@ metadata for [Records](https://tour.gleam.run/data-types/records/) in Gleam.
 
 1. Clone this repository:
 
-```bash
+```sh
 git clone https://github.com/jasonprogrammer/glerd_example.git
 ```
 
 2. Change into the `glerd_example` directory:
 
-```bash
+```sh
 cd glerd_example
 ```
 
 3. Install glerd as a development dependency:
 
-```bash
+```sh
+gleam add --dev glerd
+```
+
+4. Run Glerd:
+
+```sh
 gleam run -m glerd
 ```
 
-4. After running this, you'll notice that Glerd has created a
+5. After running this, you'll notice that Glerd has created a
 `src/glerd_gen.gleam` file locally. The file looks like this:
 
 ```gleam
