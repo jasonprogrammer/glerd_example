@@ -63,8 +63,8 @@ There are multiple ways of doing this. Here's one possibility. We could:
 1. Clone the [Glerd](https://github.com/darky/glerd) repository and build a
 single binary of Glerd using [Gleescript](https://hexdocs.pm/gleescript/).
 
-2. Add this `glerd` binary to the project repo so that we can run the Gleescript binary
-each time we build the Gleam project (e.g. before running `gleam run`).
+2. Add this `glerd` binary to the project repo so that we can run it each time
+we build the Gleam project (e.g. before running `gleam run`).
 
 Creating a single binary helps us avoid adding all of Glerd's dependencies to
 our project, and helps us avoid rebuilding Glerd each time we want to
