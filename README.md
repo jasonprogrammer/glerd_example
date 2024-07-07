@@ -1,2 +1,3 @@
 # glerd_example
-An example of using Glerd to generate metadata for records in a Gleam project
+
+An example project to demonstrate how to use Glerd to generate metadata for Records in Gleam.
