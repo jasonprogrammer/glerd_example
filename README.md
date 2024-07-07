@@ -67,7 +67,7 @@ single binary of Glerd using [Gleescript](https://hexdocs.pm/gleescript/).
 each time we build the Gleam project (e.g. before running `gleam run`).
 
 Creating a single binary helps us avoid adding all of Glerd's dependencies to
-our project, and helps us avoid rebuilding Glerd code each time we want to
+our project, and helps us avoid rebuilding Glerd each time we want to
 invoke it.
 
 3. Use a shell script or task runner
